@@ -1,18 +1,18 @@
 ---
 layout: workshop
 root: .
-venue: Some University
-address: 456 Main St #123 Somewhere, SW
-country: Canada
-language: fr
-latlng: 12.34, -56.78
-humandate: Jan 02-03, 2015
+venue: Duke University, EDGE workshop room
+address: Bostock Library, 411 Chapel Dr, Durham, NC 27708
+country: United-States
+language: en
+latlng: 36.0029394,-78.9383666
+humandate: May 14-15, 2015
 humantime: 9:00 am - 4:30 pm
-startdate: 2015-01-02
-enddate: 2015-01-03
-instructor: ["A Nice Human", "Some Human", "Another Nice-Human"]
-helper: ["More NicePeople", "Smart Human"]
-contact: someone@somewhere.org
+startdate: 2015-05-14
+enddate: 2015-05-15
+instructor: ["Hilmar Lapp", "Karen Cranston", "Mine Çetinkaya-Rundel", "François Michonneau"]
+helper: ["Dan Leehr"]
+contact: hlapp@duke.edu
 etherpad: # FIXME (insert the URL for your Etherpad if you're using one)
 eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
 ---
@@ -51,14 +51,19 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   the pitch.
 -->
 <p>
-  <a href="{{site.swc_site}}">Software Carpentry</a>'s mission
-  is to help scientists and engineers get more research done in less
-  time and with less pain by teaching them basic lab skills for
-  scientific computing.  This hands-on workshop will cover basic
-  concepts and tools, including program design, version control, data
-  management, and task automation.  Participants will be encouraged to
-  help one another and to apply what they have learned to their own
-  research problems.
+
+  Making science more reproducible has enormous potential to accelerate
+  scientific advance. For computation-heavy research, which is increasingly
+  pervasive across the sciences, this is particularly true, and yet is often
+  seen as difficult to achieve. In this 2-day bootcamp-style hands-on workshop,
+  we will teach a number of tools, resources, and practices that can be employed
+  today to make one's computational science more reproducible. The course is the
+  result of
+  the <a href="https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014">Reproducible
+  Science Curriculum Hackathon</a> that was held December 8-11, 2014, at the
+  National Evolutionary Synthesis Center (<a href="nescent.org">NESCent</a>) in
+  Durham.
+
 </p>
 
 <!--
@@ -99,9 +104,9 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 <p>
   <strong>Requirements:</strong> Participants must bring a laptop with
   a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  Software Carpentry's
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <a href="#setup">below</a>). They are also required to abide by our
+  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a> (identical to
+  Software Carpentry's).
 </p>
 
 <!--
@@ -137,10 +142,10 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>09:00</td>  <td>Introduction to Reproducible Research</td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
+      <tr> <td>13:00</td>  <td>How to organize your files to facilitate Reproducible Research</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
@@ -148,10 +153,10 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>09:00</td>  <td>How to automate your workflow?</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
+      <tr> <td>13:00</td>  <td>How to publish your reproducible workflow?</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
@@ -178,7 +183,7 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 </p>
 {% endif %}
 
-<hr/>
+<!-- <hr/> -->
 
 <!--
   SYLLABUS
@@ -197,6 +202,8 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 -->
+
+<!--
 <h2>Syllabus</h2>
 
 <div class="row">
@@ -213,20 +220,6 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
     </ul>
   </div>
   <div class="col-md-6">
-    <h3>Programming in Python</h3>
-    <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
-    </ul>
-  </div>
-  <!--
-  <div class="col-md-6">
     <h3>Programming in R</h3>
     <ul>
       <li>Working with vectors and data frames</li>
@@ -237,9 +230,10 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
       <li><a href="{{site.swc_lessons}}/ref/06-R.html">Reference...</a></li>
     </ul>
   </div>
-  -->
 </div>
+-->
 
+<!--
 <div class="row">
   <div class="col-md-6">
     <h3>Version Control with Git</h3>
@@ -270,6 +264,7 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
     </ul>
   </div>
 </div>
+-->
 
 <hr/>
 
@@ -287,12 +282,15 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 
 <h2 id="setup">Setup</h2>
 
+<!--
 <p>
   <a href="setup/index.html">This page</a> has instructions on testing
   that you have the right software installed.
 </p>
+-->
 
-<div> <!-- Start of 'editor' section. -->
+<!--
+<div> <!-- Start of 'editor' section. --><!--
   <h3>Text Editor</h3>
 
   <p>
@@ -343,7 +341,8 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   </div>
 </div> <!-- End of 'editor' section. -->
 
-<div> <!-- Start of 'shell' section. -->
+<!--
+<div> <!-- Start of 'shell' section. --><!--
   <h3>The Bash Shell</h3>
 
   <p>
@@ -401,9 +400,10 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
       </p>
     </div>
   </div>
-<div> <!-- End of 'shell' section. -->
+</div> <!-- End of 'shell' section. -->
 
-<div> <!-- Start of 'Git' section. -->
+<!--
+<div> <!-- Start of 'Git' section. --><!--
   <h3>Git</h3>
 
   <p>
@@ -427,7 +427,7 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 	<strong>For OS X 10.8 and higher</strong>, install Git for Mac
 	by downloading and running
 	<a href="http://sourceforge.net/projects/git-osx-installer/files/latest/download">the installer</a>.
-	After installing Git, there will not be anything in your <code>/Applications</code> folder, 
+	After installing Git, there will not be anything in your <code>/Applications</code> folder,
 	as Git is a command line program.
 	<strong>For older versions of OS X (10.5-10.7)</strong> use the
 	most recent available installer for your
@@ -448,7 +448,9 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   </div>
 </div> <!-- End of 'Git' section. -->
 
-<div> <!-- Start of 'Python' section. -->
+
+<!--
+<div> <!-- Start of 'Python' section. --><!--
   <h3>Python</h3>
 
   <p>
@@ -569,7 +571,8 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   </div>
 </div> <!-- End of 'R' section. -->
 
-<div> <!-- Start of 'SQLite' section. -->
+<!--
+<div> <!-- Start of 'SQLite' section. --><!--
   <h3>SQLite</h3>
 
   <p>
@@ -602,6 +605,7 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   </div>
 </div> <!-- End of 'SQLite' section. -->
 
+
 <!--
   Uncomment this section if you are using our virtual machine.
 
@@ -629,3 +633,5 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
   </ol>
 </div>
 -->
+
+We are using <a href="https://software-carpentry.org">Software Carpentry</a> <a href="https://github.com/swcarpentry/workshop-template">workshop template</a> for this website.
