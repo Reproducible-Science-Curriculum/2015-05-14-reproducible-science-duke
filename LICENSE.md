@@ -5,49 +5,37 @@ title: Licenses
 ---
 ### Instructional Material
 
-All Software Carpentry instructional material is made available under
-the [Creative Commons Attribution license][cc-by-human]. The following
-is a human-readable summary of (and not a substitute for) the [full
-legal text of the CC BY 4.0 license][cc-by-legal].
+All Reproducible Science Curriculum instructional material is made
+available under the [Creative Commons Zero][cc-zero-human] public
+domain waiver:
 
-You are free:
+> The authors of the Reproducible Science Curriculum instruction
+> materials have dedicated the work to the public domain by waiving
+> all of their rights to the work worldwide under copyright law,
+> including all related and neighboring rights, to the extent allowed
+> by law.
+>
+> You can copy, modify, distribute and perform the work, even for
+> commercial purposes, all without asking permission.
 
-* to **Share**---copy and redistribute the material in any medium or format
-* to **Adapt**---remix, transform, and build upon the material
-
-for any purpose, even commercially.
-
-The licensor cannot revoke these freedoms as long as you follow the
-license terms.
-
-Under the following terms:
-
-* **Attribution**---You must give appropriate credit (mentioning that
-  your work is derived from work that is Copyright © Software
-  Carpentry and, where practical, linking to
-  http://software-carpentry.org/), provide a [link to the
-  license][cc-by-human], and indicate if changes were made. You may do
-  so in any reasonable manner, but not in any way that suggests the
-  licensor endorses you or your use.
-
-**No additional restrictions**---You may not apply legal terms or
-technological measures that legally restrict others from doing
-anything the license permits.  With the understanding that:
+To the extent reasonably possible, please conspicuously attribute and
+credit this work if you reuse and/or redistribute it.
 
 Notices:
 
-* You do not have to comply with the license for elements of the
-  material in the public domain or where your use is permitted by an
-  applicable exception or limitation.
-* No warranties are given. The license may not give you all of the
-  permissions necessary for your intended use. For example, other
-  rights such as publicity, privacy, or moral rights may limit how you
-  use the material.
+* No warranties are given, and the authors of this work disclaim
+  liability for all uses of the work. Also, patent, trademark, or 3rd party
+  rights in the materials are not effected by this CC0 waiver.
+* When citing this work, do not imply that we endorse your work unless
+  you have express permission to do so.
+
+For details, see the [full legal text][cc-zero-legal], for which the
+above is neither a substitution nor a comprehensive representation.
 
 ### Software
 
 Except where otherwise noted, the example programs and other software
-provided by Software Carpentry are made available under the
+provided are made available under the
 [OSI](http://opensource.org)-approved
 [MIT license](http://opensource.org/licenses/mit-license.html).
 
@@ -76,10 +64,10 @@ Our [code of conduct](CODE_OF_CONDUCT.html) is taken from
 [this site](https://github.com/Bantik/contributor_covenant/blob/master/LICENSE),
 and is made available under the same MIT License as our software.
 
-### Trademark
+### Trademarks
 
 "Software Carpentry" and the Software Carpentry logo are registered
 trademarks of the Software Carpentry Foundation.
 
-[cc-by-human]: https://creativecommons.org/licenses/by/4.0/
-[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
+[cc-zero-human]: https://creativecommons.org/publicdomain/zero/1.0/
+[cc-zero-legal]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
