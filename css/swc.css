@@ -250,7 +250,9 @@ div.banner a img {
 div.banner #logo-text {
     display: flex;
     align-items: center;
-    float: left;
+    position: relative;
+    top: 0;
+    line-height: 1.1em;
     height: 100%;
     font-size: 200%; 
 }
