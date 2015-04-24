@@ -248,10 +248,11 @@ div.banner a img {
 
 /* Logo text in the banner */
 div.banner #logo-text {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
-    position: relative;
-    top: 0;
     line-height: 1.1em;
     height: 100%;
     font-size: 200%; 
